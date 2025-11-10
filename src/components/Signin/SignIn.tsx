@@ -44,7 +44,7 @@ export default function SignInForm() {
         theme: "light",
         transition: Bounce,
       });
-
+      console.log("Logged In User:", user.email)
       // navigate to dashboard after short delay
       setTimeout(() => {
         navigate("/dashboard");
